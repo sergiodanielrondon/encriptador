@@ -13,6 +13,7 @@ function copiar(){
     t_area2.value ="";
   }
 
+  
 function btnEncriptar(){
     const textoEncriptado = encriptar(t_area1.value);
     t_area2.value = textoEncriptado;
